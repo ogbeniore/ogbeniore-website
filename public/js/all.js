@@ -1,0 +1,1 @@
+console.log("hello Mother Fucker!!"),console.log("looooool"),console.log("alaye"),console.log("bleh");
