@@ -15,7 +15,7 @@ body {
     background-color: $content-bg;
     color: $link-text-color;
     width: 97vw;
-    height: 95vh;
+    min-height: 95vh;
     margin: auto;
     align-self: center;
     justify-content: center;
