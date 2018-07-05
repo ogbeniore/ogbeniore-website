@@ -1,6 +1,5 @@
-body {
-    background: red;
-    min-width: 100vw;
-    min-height: 100vh;
-    color: white;
-}
+@import "variables";
+@import "mixins";
+@import "text";
+@import "general";
+@import "responsive";

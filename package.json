@@ -20,12 +20,17 @@
     },
     "homepage": "https://github.com/ogbeniore/ogbeniore-website#readme",
     "devDependencies": {
-        "gulp": "^3.9.1",
         "gulp-concat": "^2.6.1",
         "gulp-connect": "^5.5.0",
         "gulp-sass": "^4.0.1",
-        "gulp-uglify": "^3.0.0",
-        "pump": "^3.0.0",
-        "uglify": "^0.1.5"
+        "gulp-uglify": "^3.0.0"
+    },
+    "dependencies": {
+        "animejs": "^2.2.0",
+        "autoprefixer": "^8.6.4",
+        "gulp": "^3.9.1",
+        "gulp-postcss": "^7.0.1",
+        "gulp-util": "^3.0.8",
+        "postcss-scss": "^1.0.6"
     }
 }
