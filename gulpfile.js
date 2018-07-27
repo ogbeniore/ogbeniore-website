@@ -4,7 +4,7 @@ var concat = require("gulp-concat");
 var uglify = require("gulp-uglify");
 var util = require("gulp-util");
 
-//create server
+//create live server
 
 gulp.task("connect", function() {
     connect.server({
@@ -20,7 +20,7 @@ var postcss = require("gulp-postcss");
 var scss = require("postcss-scss");
 var autoprefixer = require("autoprefixer");
 
-var sassMainFile = "sass/app.scss";
+var sassMainFile = "sass/main.scss";
 var sassFiles = "sass/**/*.scss";
 
 var postcssProcessors = [
@@ -65,7 +65,7 @@ gulp.task("html", function() {
     gulp.src("*.html").pipe(connect.reload());
 });
 
-//Build awnd warch the JS files
+//Build and watch the JS files
 var jsFiles = "js/**/*.js";
 gulp.task("js", function() {
     gulp.src(jsFiles)
