@@ -70,7 +70,7 @@ var jsFiles = "js/**/*.js";
 gulp.task("js", function() {
     gulp.src(jsFiles)
         .pipe(concat("all.js"))
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest("./public/js"))
         .pipe(connect.reload());
 });
