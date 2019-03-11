@@ -6,31 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Oreoluwa Ojo</title>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="public/css/main.css">
 </head>
 
-<body id="content">
-    <div class="container">
-        <section id="me" class="about animate">
+<body>
+    <section class="hero__section">
+        <h1 class="hero__section__name wow fadeInUp" data-wow-duration="2s">Oreoluwa Ojo</h1>
+        <h3 class="hero__section__nickname wow fadeInUp" data-wow-delay="1s">(ogbeniore)</h3>
+        <a href="#me" class="hero__section__arrow wow bounceInUp heartBeat" data-wow-duration="1s">&#10507;</a>
+    </section>
+    <nav class="navbar">
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active"><a href="#me">Me</a></li>
+            <li class="navbar__menu__item"><a href="">Work</a></li>
+        </ul>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item"><a href="mailto:oreeboy@gmail.com?subject=Hey Ore!!">Email</a></li>
+        </ul>
+    </nav>
+    <section class="section" id="me">
+        <p class="body__text wow fadeInUp" data-wow-duration="1s">
+            Hi, My name is Oreoluwa, <br>
+            I am a frontend developer, and this is my website,<br>
+            I design interfaces too, but I enjoy writing code, than pushing pixels,<br>
+            I have roughly 3 years of experience in design and web development.<br>
             <br>
-            <h1 class="bold">Hi there,</h1>
+            The tools i work with include, HTML, CSS, Javascript, Vue, React,<br>
+            I can also prototype simple API’s with nodeJs.<br>
             <br>
-            <p>I'm Oreoluwa Ojo, A frontend developer (designer maybe 🤔) based in Lagos Nigeria</p>
-            <p>I love looking at beautiful designs, and i get excited when i get an opportunity to make them.</p>
+            A list of some of the projects I’ve worked on recently can be found <a href="#work"
+                class="accented__link">here</a>
+        </p>
+        <img src="./public/images/profile-image.png" alt="Oreoluwa Ojo's face" class="profile__image">
+        <i class="profile__image__caption">in case you want to know what i look like</i>
+    </section>
+    <section class="section" id="work">
+        <h2 class="section__header wow fadeInUp">What have i built?</h2>
+        <p class="body__text">
+            Hi, My name is Oreoluwa, <br>
+            I am a frontend developer, and this is my website,<br>
+            I design interfaces too, but I enjoy writing code, than pushing pixels,<br>
+            I have roughly 3 years of experience in design and web development.<br>
             <br>
-            <p>I have 2+ years experience in coding and designing web interface</p>
-            <p>My major tools are CSS and JavaScript, but i also use frameworks like VueJS and React</p>
-            <p>I can also prototype small fullstack applications using Laravel and NodeJS (I'm very new to it though)</p>
+            The tools i work with include, HTML, CSS, Javascript, Vue, React,<br>
+            I can also prototype simple API’s with nodeJs.<br>
             <br>
-            <p>You can reach me on
-                <a href="//twitter.com/ogbeniore">Twitter</a> or check out my work on
-                <a href="//github.com/ogbeniore">Github</a> or
-                <a href="/portfolio.html">Here</a>
-            </p>
-        </section>
-    </div>
-    <!-- <script src="public/js/all.js"></script> -->
+            A list of some of the projects I’ve worked on recently can be found <a href="#work"
+                class="accented__link">here</a>
+        </p>
+    </section>
+    <footer class="footer">
+        <ul class="footer__menu">
+            <li class="footer__menu__item active">&copy; Copyright 2019, Ogbeniore</li>
+        </ul>
+        <ul class="footer__menu">
+            <li class="footer__menu__item"><a href="https://twitter.com/ogbeniore">Twitter</a></li>
+            <li class="footer__menu__item"><a href="https://www.linkedin.com/in/ogbeniore">LinkedIn</a></li>
+            <li class="footer__menu__item"><a href="https://github.com/ogbeniore">Github</a></li>
+        </ul>
+    </footer>
+    <script src="public/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

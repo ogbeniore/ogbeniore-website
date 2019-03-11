@@ -26,7 +26,6 @@
         "gulp-uglify": "^3.0.0"
     },
     "dependencies": {
-        "animejs": "^2.2.0",
         "autoprefixer": "^8.6.4",
         "gulp": "^3.9.1",
         "gulp-postcss": "^7.0.1",

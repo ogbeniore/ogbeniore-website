@@ -9,7 +9,11 @@ var util = require("gulp-util");
 gulp.task("connect", function() {
     connect.server({
         root: "./",
-        livereload: true
+        livereload: {
+            enable: true,
+            port: 35700
+        },
+        port: 8090,
     });
 });
 

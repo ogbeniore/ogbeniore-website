@@ -1,10 +1,4 @@
 @include screen(med-small) {
-    nav {
-        padding: 0 0.1em;
-    }
-    .about {
-        padding: 0 1em;
-    }
 }
 @include screen(med) {
     .about {
