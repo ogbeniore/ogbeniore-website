@@ -7,7 +7,10 @@ body {
     height: 100vh;
     background-image: linear-gradient(rgba(2, 63, 140, 0.8),rgba(2, 63, 140, 0.8)), url('../images/hero-image.jpg');
     background-size: cover;
-    background-position: center center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -38,7 +41,7 @@ body {
 }
 .navbar {
     background: #F3F9FD;
-    height: 80px;
+    height: 50px;
     padding: 0 5em;
     display: flex;
     justify-content: space-between;
@@ -56,6 +59,7 @@ body {
             padding: 1em 3em;
             color: $base-color;
             cursor: pointer;
+            font-size: 14px;
             &:hover,
             &.active {
                 border-top: 4px solid $accent-color;
@@ -87,7 +91,7 @@ body {
 .body__text {
     color: $base-color;
     line-height: 1.5;
-    font-size: 28px;
+    font-size: 21px;
     padding: 0 2em;
 }
 .accented__link {
@@ -96,7 +100,7 @@ body {
 }
 .footer {
     background: $accent-color;
-    height: 80px;
+    height: 50px;
     padding: 0 5em;
     display: flex;
     justify-content: space-between;
@@ -107,9 +111,14 @@ body {
         padding: 0;
         margin: 0;
         &__item {
+            font-size: 14px;
+            line-height: 16px;
             padding: 1em 0.5em;
             color: $base-color;
             cursor: pointer;
+            a:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
